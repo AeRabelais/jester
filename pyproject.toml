@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "jester"
+version = "0.1.0"
+description = ""
+authors = ["Ashia Lewis <pantagruelspendulum@protonmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+openai = "^1.42.0"
+pydantic-settings = "^2.4.0"
+pypdf = "^4.3.1"
+python-docx = "^1.1.2"
+sqlalchemy = "^2.0.32"
+streamlit = "^1.37.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
